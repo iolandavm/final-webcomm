@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student's Portfolio Website">
+    <title>Io's Portfolio</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gamja+Flower&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="camera-lens-fill.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e06bdcc88c.js" crossorigin="anonymous"></script>
+<body>
+    <!-- Navbar-->
+    <nav class="topnav" id="myTopnav">
+        <h1>Iolanda Verri</h1>
+        <a href="#home" class="active">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contactme">Contact Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <!-- Home content -->
+    <main id="home" class="home">
+        <img src="Images website/IMG_7071.jpg" class="image-container" id="profile" alt="profile picture">
+        <h1> Hello! I'm Iolanda</h1>
+        <h2> Welcome to my portfolio, I hope that you enjoy the visit.</h2>
+        <p>Hi! I'm a artistic photographer based in Calgary, Alberta, Canada. I'm passionate about
+            art, and I tend to
+            bring that passion into my work as a photographer and graphic designer. Enrolled in a
+            graphic design course at SAIT, I found my passion for creative projects, such as brand guidelines, logo
+            process, and Adobe programs. With my passion for art, I aim to work with artistic photography and show
+            people
+            that there's art around us.</p>
+        <div class="icons">
+            
+            <a href="https://www.instagram.com/iolanda_fotografia/?__pwa=1">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+         
+        <a href="https://www.linkedin.com/in/iolandamassaranduba/">
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+        </a>
+        
+        </div>
+       
+    </main>
+    
+<!--About me -->
+<main class="aboutme" id="aboutme">
+        <h2 class="title" id="title">About me</h2>
+        <p> Since 2019, I've been passionate about art itself, so with that, I started to take pictures with
+            my dad's old camera, and I never stopped since then. Throughout the years, I always focused on the artistic
+            side
+            of photography. below this section you will be able to take a look at my most memorable projects, from
+            working in
+            a fashion week to taking my models to the middle of the florest, I've explored every type of photography
+            style.
+        </p>
+        <img src="Images website/IMG_7053.jpg" class="portrait" alt="girl smiling portrait">
+    </main>
+<!-- Image grid-->
+<section id="Projects" class="services">
+    <h3 class="heading">My Projects</h3>
+    <h3>Take a peek at some of my projects!</h3>
+    <div class="image-grid">
+        <img src="Images website/IMG_0394.jpg" alt="Project Image 1">
+        <img src="Images website/dy3.jpg" alt="Project Image 2">
+         <img src="Images website/joker.jpg" alt="Project Image 7">
+        <img src="Images website/IMG_0671.jpg" alt="Project Image 4">
+        <img src="Images website/IMG_0641 (1).jpg" alt="Project Image 5">
+        <img src="Images website/IMG_0592.jpg" alt="Project Image 6">
+        <img src="Images website/IMG_0537.jpg" alt="Project Image 3">
+        <img src="Images website/IMG_0588.jpg" alt="Project Image 8">
+        <img src="Images website/IMG_0592.jpg" alt="Project Image 9">
+        <img src="Images website/DSC08996- editada.jpg" alt="Project Image 9">
+    </div>
+</section>
+<section id="Contactme" class="contact-section">
+    <h3 class="heading">Contact me</h3>
+    <p>Feel free to reach out using the form below!</p>
+    <form id="contactForm" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<script src="javascript.js">
+</script>
+</body>
